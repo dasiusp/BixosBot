@@ -25,25 +25,25 @@ Depois de construído o algoritmo, é necessário ainda hospedá-lo em algum ser
 
 ### Passo-a-passo para a Google Cloud
 
-1- Acesse [o console da google cloud](https://console.cloud.google.com/home/)
+1- Acesse [o console da google cloud](https://console.cloud.google.com/home/);
 
 2 - Na barra superior, do lado esquerdo da barra de busca, selecione o projeto que você irá usar como "link" do seu código com
-o bot criado no telegram (Se ele ainda não existe, crie-o)
+o bot criado no telegram (Se ele ainda não existe, crie-o);
 
-3 - Depois de aberto, procure na barra esquerda as `Cloud functions` (Ou [acesse-as diretamente](https://console.cloud.google.com/functions/list))
+3 - Depois de aberto, procure na barra esquerda as `Cloud functions` (Ou [acesse-as diretamente](https://console.cloud.google.com/functions/list));
 
-4 - Crie uma funçaõ se ainda não houver
+4 - Crie uma função se ainda não houver;
 
-5 - Adicione um anexo .zip ou cole o código do seu arquivo `main.py` e `requeriments.txt`
+5 - Adicione um anexo .zip ou cole o código do seu arquivo `main.py` e `requeriments.txt`;
 
-   5.1 - Vale lembrar que para o bot desse repositório, foi necessária a inclusão apenas da dependência `python-telegram-bot`
+   5.1 - Vale lembrar que para o bot desse repositório, foi necessária a inclusão apenas da dependência `python-telegram-bot`;
 
-6 - Defina a função `webhook` para ser executada na caixa de texto abaixo do editor inline
+6 - Defina a função `webhook` para ser executada na caixa de texto abaixo do editor inline;
 
 7 - Defina as variáveis do ambiente no final da página (as variáveis que possuem conteúdo sensível, como o token do seu bot);
 
-8 - Dê um nome para a sua função no início da página
+8 - Dê um nome para a sua função no início da página;
 
-9 - Crie a função
+9 - Crie a função;
 
-10 - Inicie o seu bot no telegram pesquisando pelo @ dele, indo na conversa e clicando em `start bot` e, por fim, teste os comandos implementados pelo seu código
+10 - Inicie o seu bot no telegram pesquisando pelo @ dele, indo na conversa e clicando em `start bot` e, por fim, teste os comandos implementados pelo seu código.
